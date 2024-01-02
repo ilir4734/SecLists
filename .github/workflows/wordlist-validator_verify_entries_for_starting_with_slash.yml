@@ -23,7 +23,7 @@ jobs:
         id: changed-files
         with:
           files: "**/*.txt"
-        uses: tj-actions/changed-files@v34
+        uses: tj-actions/changed-files@v41
       - name: Analyze all added or modified files
         run: |
           chmod +x ./.bin/check-file-for-starting-slash
